@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+}
+#login{
+    background-color: #F2D6C0;
+    height: 99%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 36rem;
+    margin-top: 9rem;
+    border: 2px solid black;
+    transition: all 0.8s ease;
+    opacity: 1;
+    border-radius: 10px;
+}
+#login input{
+    background-color: white;
+    color: black;
+    width: 50%;
+    height: 3rem;
+    border-radius: 20px;
+
+}
+#enter{
+   background-color: #D79B70;
+   color: black; 
+   width: 6rem;
+   height: 3rem;
+   font-size: 14px;
+}
+#ask{
+    font-size: 18px;
+
+}
+#sign-up{
+   background-color: #F2D6C0;
+    height: 99%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    border: 2px solid black;
+    transition: all 0.8s ease;
+    border-radius: 10px;
+    
+}
+#sign-up input{
+    background-color: white;
+    color: black;
+    width: 50%;
+    height: 3rem;
+    border-radius: 20px;
+
+}
+#create{
+   background-color: #D79B70;
+   color: black; 
+   width: 6rem;
+   height: 3rem;
+   font-size: 14px;
+}
+.pages{
+    display: flex;
+}
+.fade{
+    transform: translateX(-300px);
+    visibility: hidden;
+}
+.appear{
+    opacity: 1;
+    visibility :visible;
+    display: flex;
+   transform: translate(-400px , 150px);
+
+}

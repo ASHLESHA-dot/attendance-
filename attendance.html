@@ -7,26 +7,27 @@
     <link rel="stylesheet" href="att.css">
 </head>
 <body>
+    <h1>Welcome to Attendnce Portal</h1>
+    <div class = "pages">
     <form id="login">
         <h2>LOGIN</h2>
-        <input type="text" placeholder="Enter Username">
-        <input type="password" placeholder="Enter password">
-        <button id="enter">Login</button>
-        <div>
-            Didn't have an account? <a href="/">Sign up</a>
-        </div>
+        <input type="text" id = "user" placeholder="Enter Username"><br>
+        <input type="password" placeholder="Enter password"><br>
+        <button id="enter">Login</button><br>
+        <div id="ask">
+            Didn't have an account? <a href="#">Sign up</a>
+        </div><br>
     </form>
     <form id="sign-up">
         <h2>SIGN UP</h2>
-        <input type="email" placeholder="Enter email">
-        <input type="password" placeholder="Create password">
-        <div id="create">
-            Create
-        </div>
-        <div>
-            Already have an account? <a href="/">Login</a>
-        </div>
+        <input type="email" placeholder="Enter email"><br>
+        <input type="password" placeholder="Create password"><br>
+        <button id="create">Create</button><br>
+        <div id="ask">
+            Already have an account? <a href="#">Login</a>
+        </div><br>
     </form>
-
+    </div>
+<script src="att.js"></script>
 </body>
 </html>

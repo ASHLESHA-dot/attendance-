@@ -1,0 +1,9 @@
+.dash{
+    background-color: aliceblue;
+    width: 30%;
+    height: 20rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
