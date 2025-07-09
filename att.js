@@ -3,6 +3,7 @@ sign=document.querySelector("#sign-up")
 user=document.querySelector("#user")
 sign.style.display = "none"
 lbtn = document.querySelector("#enter")
+let go = true
 lbtn.addEventListener("click", (e)=>{
     e.preventDefault();
    login_det = document.querySelectorAll("#login input")
@@ -10,10 +11,13 @@ console.log(login_det)
 login_det.forEach(inp => {
   if(inp.value == ""){
     alert("please enter all details")
+    go = false
   }
 }); 
+if(go){
 localStorage.setItem("loggedInUser", user.value);
 window.location.href = "dashboard.html";
+}
 })
 sbtn = document.querySelector("#create")
 sbtn.addEventListener("click", (e)=>{
