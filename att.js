@@ -4,8 +4,24 @@ user=document.querySelector("#user")
 sign.style.display = "none"
 lbtn = document.querySelector("#enter")
 let go = true
+let stu = document.querySelector("#student")
+let adm = document.querySelector("#admin")
+stu.addEventListener("change", ()=>{
+  if(stu.checked){
+  adm.checked = false
+}
+})
+adm.addEventListener("change", ()=>{
+  if(adm.checked){
+  stu.checked = false 
+}
+})
 lbtn.addEventListener("click", (e)=>{
     e.preventDefault();
+    if(stu.checked==false && adm.checked==false ){
+  alert("please select your identity")
+  go= false
+}
    login_det = document.querySelectorAll("#login input")
 console.log(login_det)
 login_det.forEach(inp => {

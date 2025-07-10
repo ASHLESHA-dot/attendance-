@@ -78,3 +78,17 @@ h1{
    transform: translate(-400px , 150px);
 
 }
+#student{
+   background-color: #d6b399; 
+   border: none;
+   font-size: 17px;
+}
+#admin{
+   background-color: #d6b399; 
+   border: none;
+   font-size: 17px;
+}
+.identityy{
+    display: flex;
+    flex-direction: row;
+}

@@ -32,3 +32,29 @@ h2{
      margin-bottom: 1rem;
      font-size: 20px;
 }
+.submission{
+ width: 20%;
+    height: 10rem;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(130, 175, 215);
+    flex-direction: column;
+    margin-top: 10%;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.submission i {
+    font-size: 4rem;
+    color: aqua;
+    margin-right: 1.2rem;
+}
+#icon{
+    text-align: center;
+}
+#view{
+  background-color: rgb(130, 175, 215);
+  width: 50%;  
+  margin-left: 20%;
+  margin-top: 5%;
+  font-size: 17px;
+}
