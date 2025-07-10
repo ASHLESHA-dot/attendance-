@@ -22,6 +22,9 @@ lbtn.addEventListener("click", (e)=>{
   alert("please select your identity")
   go= false
 }
+else{
+  go = true;
+}
    login_det = document.querySelectorAll("#login input")
 console.log(login_det)
 login_det.forEach(inp => {

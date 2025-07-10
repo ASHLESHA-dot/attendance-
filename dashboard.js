@@ -25,6 +25,7 @@ document.querySelector("#submit").addEventListener("click" , (e)=>{
    else{
     let label = document.querySelector(`label[for = "${mark.id}"]`).innerText
     confirm(`you want to mark ${label}`)
+    window.location.href = "submit.html";
    }
 })
 
