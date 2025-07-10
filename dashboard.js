@@ -28,4 +28,8 @@ document.querySelector("#submit").addEventListener("click" , (e)=>{
     window.location.href = "submit.html";
    }
 })
+document.querySelector("#view").addEventListener("click", (e)=>{
+  e.preventDefault();
+  alert("redirecting to student dashboard")
+})
 

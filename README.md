@@ -52,5 +52,8 @@ git clone https://github.com/ASHLESHA-dot/attendance-.git
 2. Open `att.html` or the login pages in a browser.
 3. Start clicking around! No backend or server needed.
 
+## Screenshots:
+Sreenshots of project has been attached to the folder.
+
 ## P.S.: 
 I am currently learning React.js and will soon start with backend.

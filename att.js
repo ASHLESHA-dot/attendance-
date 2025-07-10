@@ -68,3 +68,7 @@ setTimeout(()=>{
 console.log("done")
 }, 800)
 })
+cbtn = document.querySelector("#create");
+cbtn.addEventListener("click", (e)=>{
+  alert("redirecting to sign-up pages");
+})
