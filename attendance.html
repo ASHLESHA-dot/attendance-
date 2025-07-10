@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="att.css">
 </head>
 <body>
-    <h1>Welcome to Attendnce Portal</h1>
+    <h1>Welcome to Attendance Portal</h1>
     <div class = "pages">
     <form id="login">
         <h2>LOGIN</h2>
@@ -26,6 +26,12 @@
     </form>
     <form id="sign-up">
         <h2>SIGN UP</h2>
+        <div class = "identityy">
+            <input type="checkbox" name="identity" id="student">
+        <label for="student">STUDENT</label>
+        <input type="checkbox" name="identity" id="admin">
+        <label for="admin">ADMIN</label>
+        </div><br>
         <input type="email" placeholder="Enter email"><br>
         <input type="password" placeholder="Create password"><br>
         <button id="create">Create</button><br>

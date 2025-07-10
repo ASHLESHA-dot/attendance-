@@ -33,9 +33,12 @@ login_det.forEach(inp => {
     go = false
   }
 }); 
-if(go){
+if(go && stu.checked==true && adm.checked==false){
 localStorage.setItem("loggedInUser", user.value);
 window.location.href = "dashboard.html";
+}
+else{
+  alert("Redirecting to admin dashboard")
 }
 })
 sbtn = document.querySelector("#create")
@@ -57,4 +60,11 @@ setTimeout(()=>{
 console.log("done")
 }, 800)
 })
-
+document.querySelector("#sign-up a").addEventListener("click", ()=>{
+sign.classList.add("hide")
+login.style.display = "flex"
+setTimeout(()=>{
+  login.classList.add("show")
+console.log("done")
+}, 800)
+})
